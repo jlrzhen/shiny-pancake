@@ -9,6 +9,7 @@ git clone https://github.com/vinceliuice/WhiteSur-icon-theme ~/Themes/WhiteSur-i
 ~/Themes/WhiteSur-icon-theme/install.sh
 
 # dotfiles
+(cd ../ && stow Xorg)
 (cd ../ && stow Wallpapers)
 (cd ../ && stow zsh)
 
