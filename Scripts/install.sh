@@ -1,7 +1,11 @@
-# install packages
+# configure localtime (temp fix)
+sudo rm -rf /etc/localtime
+sudo ln -sf /usr/share/zoneinfo/Canada/Central /etc/localtime
+
+# Install packages
 sudo pacman -S plasma konsole kvantum stow latte-dock firefox dolphin zsh vi
 
-# install WhiteSur-kde
+# Install WhiteSur-kde
 mkdir -p ~/Themes
 git clone https://github.com/vinceliuice/WhiteSur-kde ~/Themes/WhiteSur-kde
 ~/Themes/WhiteSur-kde/install.sh
@@ -13,5 +17,9 @@ git clone https://github.com/vinceliuice/WhiteSur-icon-theme ~/Themes/WhiteSur-i
 (cd ../ && stow Wallpapers)
 (cd ../ && stow zsh)
 
-# change to zsh
+# Change to zsh
 chsh -s $(which zsh)
+
+# virtualbox guest additions
+sudo pacman -S virtualbox-guest-utils
+sudo systemctl enable vboxservice
