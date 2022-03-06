@@ -1,5 +1,5 @@
 # install packages
-sudo pacman -S plasma kvantum
+sudo pacman -S plasma kvantum stow
 
 # install WhiteSur-kde
 mkdir -p ~/Themes
