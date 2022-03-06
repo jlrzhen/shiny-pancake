@@ -11,3 +11,6 @@ git clone https://github.com/vinceliuice/WhiteSur-icon-theme ~/Themes/WhiteSur-i
 # dotfiles
 (cd ../ && stow Wallpapers)
 (cd ../ && stow zsh)
+
+# change to zsh
+chsh -s $(which zsh)
