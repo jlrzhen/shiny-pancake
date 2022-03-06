@@ -1,5 +1,5 @@
 # install packages
-sudo pacman -S plasma kvantum stow
+sudo pacman -S plasma konsole kvantum stow latte-dock firefox dolphin zsh vi
 
 # install WhiteSur-kde
 mkdir -p ~/Themes
