@@ -4,6 +4,8 @@ sudo ln -sf /usr/share/zoneinfo/Canada/Central /etc/localtime
 
 # Install packages
 sudo pacman -S plasma konsole kvantum stow latte-dock firefox dolphin zsh vi
+# Taskbar utilities
+sudo pacman -S gnome-system-monitor dolphin
 
 # Install WhiteSur-kde
 mkdir -p ~/Themes
