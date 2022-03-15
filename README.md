@@ -1,6 +1,8 @@
 # shiny-pancake
 Installs WhiteSur theme and additional packages on kde plasma
 
+![screenshot](screenshot.png)
+
 # Example Instructions
 1. archinstall
 2. install git
